@@ -1,0 +1,17 @@
+[package]
+name = "zk-snark-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ark-std = { version = "0.4" }
+ark-groth16 = { version = "0.4" }
+ark-relations = { version = "0.4" }
+ark-crypto-primitives = { version = "0.4" }
+ark-snark = { version = "0.4" }
+ark-bn254 = { version = "0.4" }
+ark-ff = { version = "0.4" }
+ark-r1cs-std = { version = "0.4" }
+clap = { version = "4.0", features = ["derive"] }
+rand = "0.8"  # Use the rand crate for generating random numbers
+
